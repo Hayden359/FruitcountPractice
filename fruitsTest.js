@@ -17,73 +17,73 @@ function getFruitsStartingWith(letter) {
     return fruits.filter(fruit => fruit.startsWith(letter));
     }
 //setup for fruit descriptions
-const date ={
+let date ={
     type: "very sweet fruit",
     color: "brown",
     size: "small",
     taste: "sweet"
 }
-const elderberry ={
+let elderberry ={
     type: "small dark purple fruit",
     color: "dark purple",
     size: "small",
     taste: "tart"
 }
-const fig ={
+let fig ={
     type: "soft fruit with a thin skin",
     color: "purple or green",
     size: "small to medium",
     taste: "sweet"
 }
-const grape ={
+let grape ={
     type: "small round fruit",
     color: "green, red, or purple",
     size: "small",
     taste: "sweet or tart"
 }
-const honeydew ={
+let honeydew ={
     type: "sweet melon",
     color: "pale green",
     size: "medium to large",
     taste: "sweet"
 }
-const kiwi ={
+let kiwi ={
     type: "small brown fruit with green flesh",
     color: "brown",
     size: "small",
     taste: "tart and sweet"
 }
-const lemon ={
+let lemon ={
     type: "citrus fruit",
     color: "yellow",
     size: "medium",
     taste: "sour"
 }
-const mango ={
+let mango ={
     type: "tropical stone fruit",
     color: "orange or yellow",
     size: "medium to large",
     taste: "sweet and juicy"
 }
-const nectarine ={
+let nectarine ={
     type: "smooth-skinned peach",
     color: "orange or red",
     size: "medium",
     taste: "sweet and juicy"
 }
-const orange ={
+let orange ={
     type: "citrus fruit",
     color: "orange",
     size: "medium to large",
     taste: "sweet and tangy"
 }   
-const banana ={
+let banana ={
     type: "long curved fruit",
     color: "yellow",
     size: "medium",
     taste: "sweet"
 }
-const apple ={
+let apple ={
     type: "round fruit with red, green, or yellow skin",
     color: "red, green, or yellow",
     size: "medium",
