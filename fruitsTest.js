@@ -141,6 +141,9 @@ console.log('favorite fruit: ' + fruits[3]); // Output varies based on the index
                 return "Fruit not found.";
         }
     }
+
+    apple.color = "green"; // Changes the color of the apple to green
+    delete banana.taste; // Removes the taste property from the banana object
 // Example usage of the functions
 addFruittoList("Starfruit");
 removeFruitFromList("kiwi");
